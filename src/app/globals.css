@@ -1,3 +1,4 @@
+/* Updated: 2025-10-19T12:02:00.259Z */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @import "tailwindcss";
@@ -15,7 +16,7 @@
   --color-popover: #272733;
   --color-popover-foreground: #FFFFFF;
 
-  --color-primary: #E8FF00; /* Accent Primary */
+  --color-primary: #00A3FF; /* Accent Primary - Changed to blue */
   --color-primary-foreground: #16161D; /* Dark text on accent */
 
   --color-secondary: #272733; /* Background Tertiary */
@@ -24,7 +25,7 @@
   --color-muted: #A0A0A8; /* Text Secondary */
   --color-muted-foreground: #A0A0A8;
 
-  --color-accent: #E8FF00; /* Accent Primary */
+  --color-accent: #00A3FF; /* Accent Primary - Changed to blue */
   --color-accent-foreground: #16161D;
 
   --color-destructive: #FF0000; /* Accent Secondary */
@@ -32,10 +33,10 @@
 
   --color-border: #2A2A35; /* Border/Divider */
   --color-input: #2A2A35;
-  --color-ring: #E8FF00; /* Accent Primary for focus rings */
+  --color-ring: #00A3FF; /* Accent Primary for focus rings - Changed to blue */
 
   /* Chart colors (example, adjust if specific charts are used) */
-  --color-chart-1: #E8FF00;
+  --color-chart-1: #00A3FF;
   --color-chart-2: #FF0000;
   --color-chart-3: #A0A0A8;
   --color-chart-4: #FFFFFF;
@@ -44,18 +45,18 @@
   /* Sidebar colors (adapted from Shadcn's sidebar, but using RBXGOAT palette) */
   --color-sidebar: #272733; /* Background Tertiary */
   --color-sidebar-foreground: #FFFFFF; /* Text Primary */
-  --color-sidebar-primary: #E8FF00; /* Accent Primary */
+  --color-sidebar-primary: #00A3FF; /* Accent Primary - Changed to blue */
   --color-sidebar-primary-foreground: #16161D; /* Dark text on accent */
-  --color-sidebar-accent: rgba(232, 255, 0, 0.1); /* Accent Primary with transparency for hover */
-  --color-sidebar-accent-foreground: #E8FF00; /* Accent Primary for active/hover text */
+  --color-sidebar-accent: rgba(0, 163, 255, 0.1); /* Accent Primary with transparency for hover - Changed to blue */
+  --color-sidebar-accent-foreground: #00A3FF; /* Accent Primary for active/hover text - Changed to blue */
   --color-sidebar-border: #2A2A35; /* Border/Divider */
-  --color-sidebar-ring: #E8FF00; /* Accent Primary for focus rings */
+  --color-sidebar-ring: #00A3FF; /* Accent Primary for focus rings - Changed to blue */
 
   /* RBXGOAT specific colors */
   --color-background-primary: #16161D;
   --color-background-secondary: #1E1E26;
   --color-background-tertiary: #272733;
-  --color-accent-primary: #E8FF00;
+  --color-accent-primary: #00A3FF; /* Changed to blue */
   --color-accent-secondary: #FF0000;
   --color-text-primary: #FFFFFF;
   --color-text-secondary: #A0A0A8;
