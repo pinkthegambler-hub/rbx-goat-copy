@@ -16,21 +16,6 @@ import {
 
 const slides = [
   {
-    href: "/crossable",
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-201908-crossable-1.webp?",
-    alt: "Crossable promotion banner",
-  },
-  {
-    href: "/plinko",
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-882918-plinko-1.png?",
-    alt: "Plinko promotion banner",
-  },
-  {
-    href: "/bingo",
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-879152-freeroll-bingo-2.png?",
-    alt: "Freeroll Bingo promotion banner",
-  },
-  {
     href: "/rewards",
     src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-582673-daily-1.png?",
     alt: "Daily rewards promotion banner",

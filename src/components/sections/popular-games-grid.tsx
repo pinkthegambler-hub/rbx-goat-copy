@@ -11,34 +11,6 @@ const games = [
     isComingSoon: false,
   },
   {
-    name: "Mines",
-    href: "/mines",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-972529-mines-2.webp?",
-    isComingSoon: false,
-  },
-  {
-    name: "Crossable",
-    href: "/crossable",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-878227-crossable-1.webp?",
-    isComingSoon: false,
-  },
-  {
-    name: "Plinko",
-    href: "/plinko",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-687569-plinko-2.webp?",
-    isComingSoon: false,
-  },
-  {
-    name: "Bingo",
-    href: "/bingo",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-593380-bingo-2.webp?",
-    isComingSoon: false,
-  },
-  {
     name: "Coming Soon",
     href: "#",
     imgSrc:

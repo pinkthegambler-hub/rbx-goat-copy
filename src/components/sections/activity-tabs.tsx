@@ -13,21 +13,16 @@ type ActivityData = {
 };
 
 const mockData: ActivityData[] = [
-  { game: "Crossable", user: "GoatedUser", amount: 10, multiplier: 9.9, payout: 99 },
-  { game: "Mines", user: "SuperNova", amount: 200, multiplier: 2.38, payout: 476 },
-  { game: "Crossable", user: "WinnerTakeAll", amount: 50, multiplier: 1.98, payout: 99 },
-  { game: "Plinko", user: "ShadowStrike", amount: 15.5, multiplier: 5, payout: 77.5 },
   { game: "Coinflip", user: "MysticPlayer", amount: 1000, multiplier: 1.98, payout: 1980 },
-  { game: "Bingo", user: "LuckyCharm", amount: 5, multiplier: 20, payout: 100 },
-  { game: "Mines", user: "AceOfSpades", amount: 75, multiplier: 5.68, payout: 426 },
-  { game: "Crossable", user: "TheGambler", amount: 25, multiplier: 3.96, payout: 99 },
-  { game: "Plinko", user: "RiskTaker", amount: 30, multiplier: 10, payout: 300 },
   { game: "Coinflip", user: "BetMaster", amount: 5000, multiplier: 1.98, payout: 9900 },
-  { game: "Crossable", user: "GoatedUser", amount: 10, multiplier: 9.9, payout: 99 },
-  { game: "Mines", user: "SuperNova", amount: 200, multiplier: 2.38, payout: 476 },
-  { game: "Crossable", user: "WinnerTakeAll", amount: 50, multiplier: 1.98, payout: 99 },
-  { game: "Plinko", user: "ShadowStrike", amount: 15.5, multiplier: 5, payout: 77.5 },
-  { game: "Coinflip", user: "MysticPlayer", amount: 1000, multiplier: 1.98, payout: 1980 },
+  { game: "Coinflip", user: "GoatedUser", amount: 100, multiplier: 1.98, payout: 198 },
+  { game: "Coinflip", user: "SuperNova", amount: 250, multiplier: 1.98, payout: 495 },
+  { game: "Coinflip", user: "WinnerTakeAll", amount: 500, multiplier: 1.98, payout: 990 },
+  { game: "Coinflip", user: "ShadowStrike", amount: 75, multiplier: 1.98, payout: 148.5 },
+  { game: "Coinflip", user: "LuckyCharm", amount: 150, multiplier: 1.98, payout: 297 },
+  { game: "Coinflip", user: "AceOfSpades", amount: 300, multiplier: 1.98, payout: 594 },
+  { game: "Coinflip", user: "TheGambler", amount: 200, multiplier: 1.98, payout: 396 },
+  { game: "Coinflip", user: "RiskTaker", amount: 450, multiplier: 1.98, payout: 891 },
 ];
 
 const ActivityTabs = () => {

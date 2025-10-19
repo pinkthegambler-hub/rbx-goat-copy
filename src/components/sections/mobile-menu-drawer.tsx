@@ -1,6 +1,6 @@
 "use client";
 
-import { X, Coins, Droplets, Bomb, Cone, Ticket, Gift } from "lucide-react";
+import { X, Coins, Gift } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 import { cn } from "@/lib/utils";
@@ -12,10 +12,6 @@ interface MobileMenuDrawerProps {
 
 const menuItems = [
   { href: "/coinflip", icon: Coins, text: "Coinflip", new: false, stroke: false },
-  { href: "/plinko", icon: Droplets, text: "Plinko", new: false, stroke: false },
-  { href: "/mines", icon: Bomb, text: "Mines", new: false, stroke: true },
-  { href: "/crossable", icon: Cone, text: "Crossable", new: true, stroke: false },
-  { href: "/bingo", icon: Ticket, text: "Bingo", new: false, stroke: false },
 ];
 
 const rewardsItem = {
