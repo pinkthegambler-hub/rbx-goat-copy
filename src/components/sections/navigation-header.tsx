@@ -33,24 +33,6 @@ const NavigationHeader = () => {
       <header className="fixed z-[98] top-0 right-0 flex items-center w-full h-17 py-2.5 px-5 border-b border-border-divider bg-background-primary select-none">
         <div className="container mx-auto flex items-center justify-between gap-2 max-w-[1440px] lg:px-12 px-6">
           <div className="flex items-center gap-7">
-            <Link href="/">
-              <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/svgs/logo-min-1.svg?"
-                alt="logo"
-                width={171}
-                height={25}
-                className="hidden min-[842px]:block"
-                unoptimized
-              />
-              <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/svgs/logo-min-1.svg?"
-                alt="logo"
-                width={31}
-                height={25}
-                className="min-[842px]:hidden"
-                unoptimized
-              />
-            </Link>
             <div className="hidden min-[842px]:flex items-center gap-5">
               <div className="py-1.5 px-3 rounded-md bg-[#1d1b29] hover:bg-background-tertiary shadow-md text-white/80 hover:text-white fill-primary/80 hover:fill-primary cursor-pointer transition duration-150">
                 <div className="flex items-center gap-2">
