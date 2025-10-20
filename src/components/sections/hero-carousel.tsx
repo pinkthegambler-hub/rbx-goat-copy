@@ -78,7 +78,7 @@ export default function HeroCarousel() {
                     alt={slide.alt}
                     width={423}
                     height={240}
-                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !w-[432px] !h-[221px] !max-w-[432px]"
+                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !w-[432px] !h-[221px] !max-w-[432px] !block"
                     priority={index < 3} />
 
                   </div>
