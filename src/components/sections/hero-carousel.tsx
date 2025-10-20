@@ -16,7 +16,7 @@ import {
 
 const slides = [
 {
-  href: "https://discord.gg/CAg2kffQWr",
+  href: "https://discord.gg/MT9b3rK7",
   src: "",
   alt: "Discord community invitation banner"
 }];
