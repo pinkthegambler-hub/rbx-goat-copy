@@ -72,13 +72,13 @@ export default function HeroCarousel() {
 
               <Link href={slide.href} target={slide.href.startsWith("http") ? "_blank" : "_self"} rel="noopener noreferrer">
                 <div className="h-[200px] sm:h-[256px] lg:h-[224px] rounded-lg bg-white/10 overflow-hidden transition-all duration-300 ease-in-out hover:brightness-110 !w-[334px] 2xl:!h-full">
-                  <div className="flex items-center justify-center min-w-full aspect-[1.7625] overflow-hidden !w-full !h-[215px]">
+                  <div className="flex items-center justify-center min-w-full aspect-[1.7625] overflow-hidden !w-full !h-[223px]">
                     <Image
                     src={slide.src}
                     alt={slide.alt}
                     width={423}
                     height={240}
-                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[68.1%] !h-[140px] !max-w-[68.1%]"
+                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[319px] !h-[175px] !max-w-[319px]"
                     priority={index < 3} />
 
                   </div>
