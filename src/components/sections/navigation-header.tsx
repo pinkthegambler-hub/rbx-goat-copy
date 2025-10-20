@@ -42,7 +42,7 @@ const NavigationHeader = () => {
                 className="relative flex items-center gap-2 opacity-80 hover:opacity-100 cursor-pointer transition duration-150">
 
                 <div className="flex items-center justify-center w-5 h-5">
-                  <Gift className="w-[18px] h-[18px] fill-[#fff300] stroke-none" />
+                  <Gift className="w-[18px] h-[18px] fill-[#fff300] stroke-none !text-transparent" />
                 </div>
                 <span className="font-semibold text-base !whitespace-pre-line !w-[75.2%] !h-full !whitespace-pre-line">Daily Gifts</span>
               </Link>
