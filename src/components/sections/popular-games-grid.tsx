@@ -7,7 +7,7 @@ const PopularGamesGrid = () => {
   return (
     <section className="flex flex-col gap-4">
       <div className="flex items-center gap-3">
-        <span className="text-2xl text-primary !border-transparent">🎮</span>
+        <span className="text-2xl text-primary !border-transparent !whitespace-pre-line"></span>
         <h1 className="text-2xl font-bold text-text-primary">
           Games
         </h1>
