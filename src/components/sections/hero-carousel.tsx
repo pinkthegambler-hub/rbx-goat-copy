@@ -17,7 +17,7 @@ import {
 const slides = [
 {
   href: "https://discord.gg/CAg2kffQWr",
-  src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/New-Project-59-1760964979451.png",
+  src: "",
   alt: "Discord community invitation banner"
 }];
 
@@ -78,7 +78,7 @@ export default function HeroCarousel() {
                     alt={slide.alt}
                     width={423}
                     height={240}
-                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !w-[432px] !h-[221px] !max-w-[432px] !block"
+                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !w-[432px] !h-[223px] !max-w-[432px]"
                     priority={index < 3} />
 
                   </div>
