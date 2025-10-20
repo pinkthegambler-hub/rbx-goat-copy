@@ -25,7 +25,7 @@ const ActivityTabs = () => {
         <button
           key={tab}
           onClick={() => setActiveTab(tab)}
-          className={`px-3 py-1.5 rounded-full text-sm font-semibold transition-colors duration-200 ease-in-out !whitespace-pre-line ${
+          className={`px-3 py-1.5 rounded-full text-sm font-semibold transition-colors duration-200 ease-in-out !whitespace-pre-line !whitespace-pre-line ${
 
           activeTab === tab ?
           "bg-primary text-primary-foreground" :
@@ -85,7 +85,7 @@ const ActivityTabs = () => {
         </button>
         <div className="flex items-center gap-2 text-xs font-semibold">
           <PauseCircle className="h-4 w-4 text-accent-primary" />
-          <span>AUTO-SCROLL PAUSED</span>
+          <span></span>
         </div>
       </div>
     </div>);
