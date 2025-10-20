@@ -17,7 +17,7 @@ import {
 const slides = [
 {
   href: "https://discord.gg/MT9b3rK7",
-  src: "",
+  src: "https://3000-72104ab3-6a93-40a5-99b9-c2fc0b5e1415.orchids.page/",
   alt: "Discord community invitation banner"
 }];
 
@@ -78,7 +78,7 @@ export default function HeroCarousel() {
                     alt={slide.alt}
                     width={423}
                     height={240}
-                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[180px] !h-[68px] !max-w-[180px]"
+                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[68.1%] !h-48 !max-w-[68.1%]"
                     priority={index < 3} />
 
                   </div>
