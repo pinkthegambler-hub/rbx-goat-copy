@@ -12,18 +12,7 @@ type ActivityData = {
   payout: number;
 };
 
-const mockData: ActivityData[] = [
-  { game: "Coinflip", user: "MysticPlayer", amount: 1000, multiplier: 1.98, payout: 1980 },
-  { game: "Coinflip", user: "BetMaster", amount: 5000, multiplier: 1.98, payout: 9900 },
-  { game: "Coinflip", user: "GoatedUser", amount: 100, multiplier: 1.98, payout: 198 },
-  { game: "Coinflip", user: "SuperNova", amount: 250, multiplier: 1.98, payout: 495 },
-  { game: "Coinflip", user: "WinnerTakeAll", amount: 500, multiplier: 1.98, payout: 990 },
-  { game: "Coinflip", user: "ShadowStrike", amount: 75, multiplier: 1.98, payout: 148.5 },
-  { game: "Coinflip", user: "LuckyCharm", amount: 150, multiplier: 1.98, payout: 297 },
-  { game: "Coinflip", user: "AceOfSpades", amount: 300, multiplier: 1.98, payout: 594 },
-  { game: "Coinflip", user: "TheGambler", amount: 200, multiplier: 1.98, payout: 396 },
-  { game: "Coinflip", user: "RiskTaker", amount: 450, multiplier: 1.98, payout: 891 },
-];
+const mockData: ActivityData[] = [];
 
 const ActivityTabs = () => {
   const [activeTab, setActiveTab] = useState("Live Games");

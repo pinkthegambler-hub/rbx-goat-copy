@@ -20,13 +20,7 @@ import {
 const NavigationHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = [
-    { href: "/coinflip", icon: <Coins className="w-5 h-5 transition duration-300" />, label: "Coinflip" },
-    { href: "/plinko", icon: <Droplets className="w-5 h-5 transition duration-300 " />, label: "Plinko" },
-    { href: "/mines", icon: <Bomb className="w-5 h-5 transition duration-300" />, label: "Mines" },
-    { href: "/crossable", icon: <Cone className="w-5 h-5 transition duration-300" />, label: "Crossable", new: true },
-    { href: "/bingo", icon: <div className="w-8 h-8 scale-[0.9]"></div>, label: "Bingo" },
-  ];
+  const menuItems = [];
 
   return (
     <>

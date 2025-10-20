@@ -2,36 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlayCircle } from "lucide-react";
 
-const games = [
-  {
-    name: "Coinflip",
-    href: "/coinflip",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-424439-coinflip-2.webp?",
-    isComingSoon: false,
-  },
-  {
-    name: "Coming Soon",
-    href: "#",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-954915-soon-1.png?",
-    isComingSoon: true,
-  },
-  {
-    name: "Coming Soon",
-    href: "#",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-954915-soon-1.png?",
-    isComingSoon: true,
-  },
-  {
-    name: "Coming Soon",
-    href: "#",
-    imgSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-954915-soon-1.png?",
-    isComingSoon: true,
-  },
-];
+const games = [];
 
 const PopularGamesGrid = () => {
   return (

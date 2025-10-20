@@ -16,11 +16,6 @@ import {
 
 const slides = [
   {
-    href: "/rewards",
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-582673-daily-1.png?",
-    alt: "Daily rewards promotion banner",
-  },
-  {
     href: "https://discord.gg/CAg2kffQWr",
     src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-796893-discord-1.png?",
     alt: "Discord community invitation banner",
