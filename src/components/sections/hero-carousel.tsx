@@ -78,7 +78,7 @@ export default function HeroCarousel() {
                     alt={slide.alt}
                     width={423}
                     height={240}
-                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[383px] !h-[225px] !max-w-[383px]"
+                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[68.1%] !h-[140px] !max-w-[68.1%]"
                     priority={index < 3} />
 
                   </div>
