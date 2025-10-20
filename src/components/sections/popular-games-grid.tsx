@@ -9,7 +9,7 @@ const PopularGamesGrid = () => {
       <div className="flex items-center gap-3">
         <span className="text-2xl text-primary">🎮</span>
         <h1 className="text-2xl font-bold text-text-primary">
-          Just games
+          Games
         </h1>
       </div>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4">
