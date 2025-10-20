@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PlayCircle } from "lucide-react";
 
 const games = [];
 
@@ -8,9 +7,9 @@ const PopularGamesGrid = () => {
   return (
     <section className="flex flex-col gap-4">
       <div className="flex items-center gap-3">
-        <PlayCircle className="h-6 w-6 fill-primary text-background-primary" />
+        <span className="text-2xl text-primary">🎮</span>
         <h1 className="text-2xl font-bold text-text-primary">
-          Popular Games
+          Just games
         </h1>
       </div>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4">
