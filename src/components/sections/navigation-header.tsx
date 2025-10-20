@@ -14,8 +14,8 @@ import {
   Coins,
   Droplets,
   Bomb,
-  Cone,
-} from "lucide-react";
+  Cone } from
+"lucide-react";
 
 const NavigationHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,12 +39,12 @@ const NavigationHeader = () => {
               </div>
               <Link
                 href="/rewards"
-                className="relative flex items-center gap-2 opacity-80 hover:opacity-100 cursor-pointer transition duration-150"
-              >
+                className="relative flex items-center gap-2 opacity-80 hover:opacity-100 cursor-pointer transition duration-150">
+
                 <div className="flex items-center justify-center w-5 h-5">
                   <Gift className="w-[18px] h-[18px] fill-[#fff300] stroke-none" />
                 </div>
-                <span className="font-semibold text-base">Rewards</span>
+                <span className="font-semibold text-base !whitespace-pre-line">Daily</span>
               </Link>
             </div>
           </div>
@@ -70,8 +70,8 @@ const NavigationHeader = () => {
         <div className="flex w-full h-[68px] border-t border-[#2A2A35] bg-background-primary">
           <button
             onClick={() => setIsMenuOpen(true)}
-            className="flex-1 flex flex-col items-center justify-end gap-1.5 pb-2.5 cursor-pointer brightness-75 hover:brightness-100 transition"
-          >
+            className="flex-1 flex flex-col items-center justify-end gap-1.5 pb-2.5 cursor-pointer brightness-75 hover:brightness-100 transition">
+
             <MenuIcon className="w-6 h-6 text-white" />
             <span className="text-xs text-white font-medium">Menu</span>
           </button>
@@ -81,8 +81,8 @@ const NavigationHeader = () => {
           </div>
           <Link
             href="/rewards"
-            className="flex-1 flex flex-col items-center justify-end gap-1.5 pb-2.5 cursor-pointer brightness-75 hover:brightness-100 transition"
-          >
+            className="flex-1 flex flex-col items-center justify-end gap-1.5 pb-2.5 cursor-pointer brightness-75 hover:brightness-100 transition">
+
             <Gift className="w-6 h-6 fill-white" />
             <span className="text-xs text-white font-medium">Rewards</span>
           </Link>
@@ -95,37 +95,37 @@ const NavigationHeader = () => {
 
       <div
         className={`fixed z-[97] inset-0 transition-all duration-500 ${
-          isMenuOpen ? "top-0 pointer-events-auto" : "top-full pointer-events-none"
-        }`}
-      >
+        isMenuOpen ? "top-0 pointer-events-auto" : "top-full pointer-events-none"}`
+        }>
+
         <div className="flex flex-col gap-2 w-full h-full p-3 bg-background-secondary overflow-y-auto">
           <div className="flex items-center justify-between px-1">
             <h2 className="text-xl font-semibold">Menu</h2>
             <button
               onClick={() => setIsMenuOpen(false)}
-              className="flex items-center justify-center w-5 h-10 cursor-pointer"
-            >
+              className="flex items-center justify-center w-5 h-10 cursor-pointer">
+
               <X className="w-5 h-5 text-muted" />
             </button>
           </div>
           <div className="flex flex-col gap-1 p-2 rounded-md border border-border-divider/40 bg-background-secondary shadow-md">
-            {menuItems.map((item) => (
-              <Link href={item.href} key={item.label}>
+            {menuItems.map((item) =>
+            <Link href={item.href} key={item.label}>
                 <div className="relative flex items-center gap-1 h-11 rounded-md bg-[#1e1e26]/60 hover:bg-[#272733] text-primary fill-primary">
                   <div className="flex items-center justify-center w-10 h-10">
                     {item.icon}
                   </div>
                   <p className="font-semibold transition duration-300 text-white">{item.label}</p>
-                  {item.new && (
-                    <div className="absolute top-0 right-0 -translate-y-[1px] translate-x-0.5">
+                  {item.new &&
+                <div className="absolute top-0 right-0 -translate-y-[1px] translate-x-0.5">
                       <div className="py-0.5 px-1.5 rounded-sm bg-destructive shadow-sm">
                         <p className="text-[10px] leading-[12px] font-semibold text-destructive-foreground">NEW</p>
                       </div>
                     </div>
-                  )}
+                }
                 </div>
               </Link>
-            ))}
+            )}
           </div>
           <div className="flex flex-col gap-1 p-2 rounded-md border border-border-divider/40 bg-background-secondary shadow-md">
             <Link href="/rewards">
@@ -139,8 +139,8 @@ const NavigationHeader = () => {
           </div>
         </div>
       </div>
-    </>
-  );
+    </>);
+
 };
 
 export default NavigationHeader;
