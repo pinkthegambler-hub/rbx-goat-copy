@@ -17,7 +17,7 @@ import {
 const slides = [
   {
     href: "https://discord.gg/CAg2kffQWr",
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1fff507-24f8-47ae-bac1-f245a392a1ca-rbxgoat-com/assets/images/next-796893-discord-1.png?",
+    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/New-Project-59-1760964979451.png",
     alt: "Discord community invitation banner",
   },
 ];
