@@ -70,7 +70,7 @@ export default function HeroCarousel() {
             key={index}
             className="min-w-0 shrink-0 grow-0 basis-full pl-4 lg:basis-1/2 2xl:basis-1/3">
 
-              <Link href={slide.href} target={slide.href.startsWith("http") ? "_blank" : "_self"} rel="noopener noreferrer" className="!w-[99.9%] !h-[179px]">
+              <Link href={slide.href} target={slide.href.startsWith("http") ? "_blank" : "_self"} rel="noopener noreferrer" className="!w-[67.9%] !h-[182px]">
                 <div className="h-[200px] sm:h-[256px] lg:h-[224px] rounded-lg bg-white/10 overflow-hidden transition-all duration-300 ease-in-out hover:brightness-110 !w-[334px] 2xl:!h-full">
                   <div className="flex items-center justify-center min-w-full aspect-[1.7625] overflow-hidden !w-full !h-[223px]">
                     <Image
@@ -78,7 +78,7 @@ export default function HeroCarousel() {
                     alt={slide.alt}
                     width={423}
                     height={240}
-                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[319px] !h-[175px] !max-w-[319px]"
+                    className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 !block !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-slate-800 !grid !w-[319px] !h-[220px] !max-w-[319px]"
                     priority={index < 3} />
 
                   </div>
