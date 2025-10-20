@@ -44,7 +44,7 @@ const NavigationHeader = () => {
                 <div className="flex items-center justify-center w-5 h-5">
                   <Gift className="w-[18px] h-[18px] fill-[#fff300] stroke-none" />
                 </div>
-                <span className="font-semibold text-base !whitespace-pre-line">Daily</span>
+                <span className="font-semibold text-base !whitespace-pre-line !w-[75.2%] !h-full !whitespace-pre-line">Daily Gifts</span>
               </Link>
             </div>
           </div>
