@@ -25,7 +25,7 @@ const NavigationHeader = () => {
   return (
     <>
       <header className="fixed z-[98] top-0 right-0 flex items-center w-full h-17 py-2.5 px-5 border-b border-border-divider bg-background-primary select-none">
-        <div className="container mx-auto flex items-center justify-between gap-2 max-w-[1440px] lg:px-12 px-6">
+        <div className="container mx-auto flex items-center justify-between gap-2 lg:px-12 px-6 !w-[90%] !h-10 !max-w-[90%]">
           <div className="flex items-center gap-7">
             <div className="hidden min-[842px]:flex items-center gap-5">
               <div className="py-1.5 px-3 rounded-md bg-[#1d1b29] hover:bg-background-tertiary shadow-md text-white/80 hover:text-white fill-primary/80 hover:fill-primary cursor-pointer transition duration-150">
